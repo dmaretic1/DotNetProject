@@ -1,0 +1,1 @@
+docker container run --rm -p 8080:8080 dmaretic/inventorymvc

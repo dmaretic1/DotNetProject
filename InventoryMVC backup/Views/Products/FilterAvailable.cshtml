@@ -1,0 +1,12 @@
+@model IEnumerable<InventoryMVC.Models.Product>
+
+@{
+    ViewData["Title"] = "FilterAvailable";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<partial name="/Views/Products/_IndexProductPartial.cshtml" /> 
